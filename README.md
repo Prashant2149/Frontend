@@ -1,29 +1,54 @@
-# frontend
+# Frontend (Vue.js)
 
-This template should help get you started developing with Vue 3 in Vite.
+This is the **frontend** for the My-Account project, built using **Vue 3 + Vite**. It fetches and displays users from the backend API.
 
-## Recommended IDE Setup
+## 📌 Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v18+ recommended)
+- [Backend API](https://github.com/Prashant2149/Backend)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 📂 Folder Structure
+```
+frontend/
+│── src/
+│   ├── components/
+│   │   ├── UserList.vue
+│   ├── App.vue
+│── public/
+│── package.json
+│── vite.config.js
+│── .env
+│── README.md
+```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+## 📌 Installation
+Clone the repository and install dependencies:
 ```sh
+git clone https://github.com/Prashant2149/Frontend
+cd frontend
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## ⚙️ Environment Variables (.env)
+Create a `.env` file in the root directory:
+```ini
+VITE_API_URL=http://localhost:3000
+```
 
+## 🚀 Running the Frontend
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+Then open:
 ```
+http://localhost:5173
+```
+
+## 🖥️ Features
+- Fetch users from the backend API
+- Display users in a simple list
+
+## 📜 License
+This project is licensed under [MIT](LICENSE).
+
